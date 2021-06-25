@@ -1,0 +1,136 @@
+body
+{
+    background-color:  #192C33;
+}
+
+#Encochecalculatrice
+{
+    /* border: 5px white solid; */
+    margin-left: 36%;
+    margin-right: 36%;
+    margin-top: 50px;
+    height: 540px;
+    border-radius: 30px/30px;
+    display: flex;
+    
+}
+
+#Interieurcalculatrice
+{
+    border: 12px #202528 solid;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 80%;
+    height: 520px;
+    border-radius: 40px/40px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color:  #22272A;
+}
+
+.affichage1, .affichage2
+{
+    border-bottom: 2px #585C5F solid;
+    width: 99%;
+    height:70px;
+}
+
+.affichage1
+{
+    margin-top: 35px;
+}
+
+.affichage3
+{
+    /* border: 2px red solid; */
+    width: 99%;
+    height: 290px;
+    margin-bottom:  10px;  
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.rangée1, .rangée2, .rangée3, .rangée4, .rangée5
+{
+    width: 99%;
+    height: 54px;
+    margin-top: 3px;
+    /* border: 2px yellow solid; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+}
+
+.bouton1, .bouton2, .bouton3, .bouton4
+{
+   color: #F0F0EE ;
+   text-align: center;
+   font-size: 1.5em;
+   align-items: center;
+   font-weight: bold;
+   width: 20%;
+   margin-right: 4%;
+   height: 45px;
+   margin-top: 5px;
+   /* border: 1px white solid;  */
+   border-radius: 12px/12px;
+   background-color: #2A3642;
+}
+
+.bouton1
+{
+    margin-left: 4%;
+}
+
+.longbouton
+{
+    width: 43.2%;
+    margin-right: 4.2%;
+    height: 45px;
+    margin-top: 5px;
+    /* border: 1px white solid;  */
+    border-radius: 14px/14px;  
+    margin-left: 4%;
+    color: #DCB13E ;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    background-color: #2A3642;
+}
+
+.bouton5, .bouton6
+{
+    width: 20%;
+   margin-right: 4%;
+   height: 45px;
+   margin-top: 5px;
+   /* border: 1px white solid;  */
+   border-radius: 12px/12px;
+   color: #F0F0EE ;
+   text-align: center;
+   font-size: 2em;
+   align-items: center;
+   font-weight: bold;
+   background-color: #2A3642;
+}
+
+.marron
+{
+    color:#DCB13E ;
+}
+
+.espaceecoute
+{
+    /*     border: 1px white solid; */
+    width: 15%;
+    height: 5px;
+    margin-top: 0;
+    margin-left: 43%;
+    margin-right: 40%;
+    background-color:#202528;
+}
