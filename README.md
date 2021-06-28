@@ -1,2 +1,4 @@
-# Hello-World
-Create a calcular helped by HTML5/CSS3/JavaScript
+# Calculator
+
+My first project to test my skill on Html css and Js
+by built calculator
